@@ -4,7 +4,7 @@ while 1:
             return n
         else:
             return fib(n-1)+fib(n-2)
-    num=input("Enter positive number(number of terms)(enter nothing to quit):")
+    num=input("Enter a positve number(number of terms)(enter nothing to quit):")
     if num=="":
         break
     elif not num.isnumeric() or int(num)<0:
