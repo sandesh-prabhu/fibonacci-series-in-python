@@ -14,4 +14,4 @@ while 1:
     else:
         print("Fibonacci series:")
         for i in range(int(num)):
-            print(fib(i))
+            print(fib(i));
