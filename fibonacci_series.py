@@ -6,12 +6,10 @@ while 1:
             return fib(n-1)+fib(n-2)
     num=input("Enter a positve number(number of terms)(enter nothing to quit):")
     if num=="":
+        print("Have a good day!")
         break
     elif not num.isnumeric() or int(num)<0:
         print("enter a positive integer")
-    elif num=="":
-        break
     else:
         print("Fibonacci series:")
-        for i in range(int(num)):
-            print(fib(i))
+        [print(fib(i)) for i in range(int(num))]
